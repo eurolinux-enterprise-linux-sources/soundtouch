@@ -1,6 +1,6 @@
 Name:           soundtouch
 Version:        1.4.0
-Release:        7%{?dist}
+Release:        9%{?dist}
 Summary:        Audio Processing library for changing Tempo, Pitch and Playback Rates
 License:        LGPLv2+
 Group:          System Environment/Libraries
@@ -108,6 +108,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4.0-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.0-8
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.4.0-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
